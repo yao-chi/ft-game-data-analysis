@@ -1,0 +1,302 @@
+{
+ "base": {
+  "matches": 800,
+  "rows": 215976,
+  "players": 6400,
+  "avg_rounds": 33.7,
+  "avg_placement": 4.5,
+  "avg_interest": 2.02,
+  "avg_income": 7.74,
+  "avg_final_gold": 27.2,
+  "avg_max_streak": 4.4,
+  "skill_placement_r": -0.702
+ },
+ "styles": [
+  {
+   "style": "均衡流",
+   "n": 1587,
+   "avg_placement": 3.96,
+   "avg_interest": 2.67,
+   "avg_gold": 29.9,
+   "avg_level": 9.4,
+   "avg_comp": 63.7,
+   "avg_elim": 28.6,
+   "top1": 0.2029,
+   "top4": 0.5936
+  },
+  {
+   "style": "速本流",
+   "n": 1627,
+   "avg_placement": 4.48,
+   "avg_interest": 1.82,
+   "avg_gold": 23.8,
+   "avg_level": 10.0,
+   "avg_comp": 52.9,
+   "avg_elim": 27.7,
+   "top1": 0.0824,
+   "top4": 0.5249
+  },
+  {
+   "style": "赌狗流",
+   "n": 1624,
+   "avg_placement": 4.65,
+   "avg_interest": 0.94,
+   "avg_gold": 17.4,
+   "avg_level": 7.4,
+   "avg_comp": 54.3,
+   "avg_elim": 27.2,
+   "top1": 0.1115,
+   "top4": 0.4692
+  },
+  {
+   "style": "存钱流",
+   "n": 1562,
+   "avg_placement": 4.91,
+   "avg_interest": 2.67,
+   "avg_gold": 31.6,
+   "avg_level": 8.4,
+   "avg_comp": 54.7,
+   "avg_elim": 26.5,
+   "top1": 0.1044,
+   "top4": 0.411
+  }
+ ],
+ "interest_rank": [
+  [
+   0.94,
+   4.69
+  ],
+  [
+   1.61,
+   4.46
+  ],
+  [
+   2.33,
+   4.46
+  ],
+  [
+   2.67,
+   4.48
+  ],
+  [
+   2.69,
+   4.42
+  ]
+ ],
+ "streak_rank": [
+  [
+   "1-2连",
+   6.94
+  ],
+  [
+   "3-4连",
+   4.84
+  ],
+  [
+   "5-6连",
+   3.18
+  ],
+  [
+   "7-8连",
+   2.14
+  ],
+  [
+   "9+连",
+   1.5
+  ]
+ ],
+ "elim_by_rank": [
+  [
+   1,
+   33.7
+  ],
+  [
+   2,
+   33.7
+  ],
+  [
+   3,
+   30.8
+  ],
+  [
+   4,
+   28.1
+  ],
+  [
+   5,
+   26.2
+  ],
+  [
+   6,
+   24.3
+  ],
+  [
+   7,
+   22.5
+  ],
+  [
+   8,
+   20.4
+  ]
+ ],
+ "corr": {
+  "skill": {
+   "skill": 1.0,
+   "interest": 0.008,
+   "income": 0.022,
+   "gold": 0.007,
+   "max_streak": 0.559,
+   "final_level": 0.323,
+   "final_comp": 0.794,
+   "spent_total": 0.665,
+   "dmg": -0.429,
+   "elim_round": 0.7,
+   "placement": -0.702
+  },
+  "interest": {
+   "skill": 0.008,
+   "interest": 1.0,
+   "income": 0.86,
+   "gold": 0.994,
+   "max_streak": -0.0,
+   "final_level": 0.416,
+   "final_comp": 0.15,
+   "spent_total": 0.311,
+   "dmg": -0.059,
+   "elim_round": 0.028,
+   "placement": -0.037
+  },
+  "income": {
+   "skill": 0.022,
+   "interest": 0.86,
+   "income": 1.0,
+   "gold": 0.855,
+   "max_streak": 0.224,
+   "final_level": 0.351,
+   "final_comp": 0.169,
+   "spent_total": 0.329,
+   "dmg": -0.255,
+   "elim_round": -0.006,
+   "placement": -0.036
+  },
+  "gold": {
+   "skill": 0.007,
+   "interest": 0.994,
+   "income": 0.855,
+   "gold": 1.0,
+   "max_streak": -0.012,
+   "final_level": 0.359,
+   "final_comp": 0.131,
+   "spent_total": 0.291,
+   "dmg": -0.052,
+   "elim_round": 0.011,
+   "placement": -0.021
+  },
+  "max_streak": {
+   "skill": 0.559,
+   "interest": -0.0,
+   "income": 0.224,
+   "gold": -0.012,
+   "max_streak": 1.0,
+   "final_level": 0.345,
+   "final_comp": 0.614,
+   "spent_total": 0.732,
+   "dmg": -0.622,
+   "elim_round": 0.647,
+   "placement": -0.663
+  },
+  "final_level": {
+   "skill": 0.323,
+   "interest": 0.416,
+   "income": 0.351,
+   "gold": 0.359,
+   "max_streak": 0.345,
+   "final_level": 1.0,
+   "final_comp": 0.415,
+   "spent_total": 0.6,
+   "dmg": -0.17,
+   "elim_round": 0.497,
+   "placement": -0.471
+  },
+  "final_comp": {
+   "skill": 0.794,
+   "interest": 0.15,
+   "income": 0.169,
+   "gold": 0.131,
+   "max_streak": 0.614,
+   "final_level": 0.415,
+   "final_comp": 1.0,
+   "spent_total": 0.786,
+   "dmg": -0.464,
+   "elim_round": 0.763,
+   "placement": -0.761
+  },
+  "spent_total": {
+   "skill": 0.665,
+   "interest": 0.311,
+   "income": 0.329,
+   "gold": 0.291,
+   "max_streak": 0.732,
+   "final_level": 0.6,
+   "final_comp": 0.786,
+   "spent_total": 1.0,
+   "dmg": -0.418,
+   "elim_round": 0.929,
+   "placement": -0.881
+  },
+  "dmg": {
+   "skill": -0.429,
+   "interest": -0.059,
+   "income": -0.255,
+   "gold": -0.052,
+   "max_streak": -0.622,
+   "final_level": -0.17,
+   "final_comp": -0.464,
+   "spent_total": -0.418,
+   "dmg": 1.0,
+   "elim_round": -0.301,
+   "placement": 0.441
+  },
+  "elim_round": {
+   "skill": 0.7,
+   "interest": 0.028,
+   "income": -0.006,
+   "gold": 0.011,
+   "max_streak": 0.647,
+   "final_level": 0.497,
+   "final_comp": 0.763,
+   "spent_total": 0.929,
+   "dmg": -0.301,
+   "elim_round": 1.0,
+   "placement": -0.928
+  },
+  "placement": {
+   "skill": -0.702,
+   "interest": -0.037,
+   "income": -0.036,
+   "gold": -0.021,
+   "max_streak": -0.663,
+   "final_level": -0.471,
+   "final_comp": -0.761,
+   "spent_total": -0.881,
+   "dmg": 0.441,
+   "elim_round": -0.928,
+   "placement": 1.0
+  }
+ },
+ "captions": {
+  "style": "平均名次最优是 均衡流（3.96 名，前四率 59.4%），最险是 存钱流（4.91 名，吃鸡率 10.4%）",
+  "interest": "每回合利息从 0.9 金提到 2.7 金，名次仅从 4.69 升到 4.42 —— 利息是优化项而非胜负手",
+  "streak": "连胜 9 局以上的玩家平均名次 1.50，仅 1-2 连的为 6.94",
+  "elim": "第 8 名平均 20 回合出局，冠军撑到第 34 回合",
+  "corr": "与名次相关性最强的是「elim_round」（r=-0.93）；实力 skill 与名次 r=-0.70，总投入 spent_total r=-0.88"
+ },
+ "findings": [
+  "样本：800 局 × 6,400 条玩家记录 / 215,976 条回合明细；平均 33.7 回合决出胜负。",
+  "运营流派显著影响成绩：平均名次最优是 均衡流（3.96 名，前四率 59.4%），最险是 存钱流（4.91 名，吃鸡率 10.4%）。",
+  "经济只是优化项：每回合利息从 0.9 金提到 2.7 金，名次仅从 4.69 升到 4.42 —— 利息是优化项而非胜负手；真正决定名次的是总投入与存活节奏。",
+  "滚雪球效应：连胜 9 局以上的玩家平均名次 1.50，仅 1-2 连的为 6.94。",
+  "淘汰节奏：第 8 名平均 20 回合出局，冠军撑到第 34 回合；血量管理（卖血 vs 保血）决定了运营窗口。",
+  "因子归因：与名次相关性最强的是「elim_round」（r=-0.93）；实力 skill 与名次 r=-0.70，总投入 spent_total r=-0.88 —— 实力是最大底色、投入与节奏决定执行上限。"
+ ]
+}
